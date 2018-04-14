@@ -21,8 +21,17 @@ while True:
         system("sudo git clone https://github.com/nycto-hackerone/nycto-dork")
         
         break
+        
+ while True: 
+    print "Wifi-Ripper"
+    print "\n(1) Kali Linux x32/x64\n(2) Ubuntu / Parrot OS\n(3) Mac OS X / Darwin\n(0) Uninstall\n"
+    getos = raw_input(">>")
+    if getos == "1":
+        system("sudo git clone https://github.com/nycto-hackerone/Wi-fi-Ripper")
+        
+        break       
+        
 
-    
 while True: 
     print "Nycto-Host"
     print "\n(1) Kali Linux x32/x64\n(2) Ubuntu / Parrot OS\n(3) Mac OS X / Darwin\n(0) Uninstall\n"
