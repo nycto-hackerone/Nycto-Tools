@@ -22,7 +22,7 @@ while True:
         
         break
         
- while True: 
+while True: 
     print "Wifi-Ripper"
     print "\n(1) Kali Linux x32/x64\n(2) Ubuntu / Parrot OS\n(3) Mac OS X / Darwin\n(0) Uninstall\n"
     getos = raw_input(">>")
